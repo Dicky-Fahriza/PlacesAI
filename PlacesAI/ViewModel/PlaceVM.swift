@@ -8,6 +8,7 @@
 import Foundation
 import GoogleGenerativeAI
 
+@MainActor
 class PlaceVM: ObservableObject {
     private var geminiModel: GenerativeModel?
     @Published var place: [Place] = []

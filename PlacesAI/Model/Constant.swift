@@ -10,12 +10,12 @@ import Foundation
 struct Constant {
     static let apiKey = "AIzaSyBEOYTGBVpbB8lwc8Hkvjj4O9C2er-ltvI"
     static let prompt = """
-    give me inspiration for activities that can be done during the day in the city of Bengkulu. Provide the response as an array of JSON as
+    give me recommendation place in Bengkulu. Provide the response as an array of JSON as
     {
         [
-            "place": "name",
+            "place": "place",
             "activity": "activities",
-            "price": "5.000"
+            "proce": "Rp 35.000"
         ]
     
     }
